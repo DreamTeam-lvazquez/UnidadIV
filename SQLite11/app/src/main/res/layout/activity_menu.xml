@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <Button
+            android:id="@+id/cveSong"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/color_sqrt"
+            android:onClick="songAct"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/title" />
+
+        <Button
+            android:id="@+id/cvePro"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/cveSong"
+            android:layout_below="@+id/cveSong"
+            android:background="@color/color_sqrt"
+            android:onClick="productAct"
+            android:text="Product"
+            android:textAlignment="center"
+            android:textColor="@color/title" />
+
+        <Button
+            android:id="@+id/cveCus"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/cvePro"
+            android:layout_below="@+id/cvePro"
+            android:background="@color/color_sqrt"
+            android:onClick="customerAct"
+            android:text="Customer"
+            android:textAlignment="center"
+            android:textColor="@color/title" />
+
+        <Button
+            android:id="@+id/cveMet"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/cveCus"
+            android:layout_below="@+id/cveCus"
+            android:background="@color/color_sqrt"
+            android:onClick="methodAct"
+            android:text="Method"
+            android:textAlignment="center"
+            android:textColor="@color/title" />
+
+        <!--<Button
+            android:id="@+id/cveOrd"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/cveMet"
+            android:layout_below="@+id/cveMet"
+            android:background="@color/color_sqrt"
+            android:onClick="orderAct"
+            android:text="Order"
+            android:textAlignment="center"
+            android:textColor="@color/title" />
+
+        <Button
+            android:id="@+id/cveOrdDet"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/cveOrd"
+            android:layout_below="@+id/cveOrd"
+            android:background="@color/color_sqrt"
+            android:onClick="orderDetAct"
+            android:text="Order Detail"
+            android:textAlignment="center"
+            android:textColor="@color/title" /> -->
+
+        <Button
+            android:id="@+id/cveSup"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/cveMet"
+            android:layout_below="@+id/cveMet"
+            android:background="@color/color_sqrt"
+            android:onClick="supplierAct"
+            android:text="Supplier"
+            android:textAlignment="center"
+            android:textColor="@color/title" />
+
+        <Button
+            android:id="@+id/cveCity"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/cveSup"
+            android:layout_below="@+id/cveSup"
+            android:background="@color/color_sqrt"
+            android:onClick="CityAct"
+            android:text="City"
+            android:textAlignment="center"
+            android:textColor="@color/title" />
+</RelativeLayout>
